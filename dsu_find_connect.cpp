@@ -10,5 +10,4 @@ void connect(int u, int v) {
     v = findparent(v);
 
     if(u != v) parent[u] = v;
-    else flag = 0;
 }
